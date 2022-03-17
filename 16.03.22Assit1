@@ -1,0 +1,14 @@
+s=input("enter a numbers")
+l=list(s)
+print(l)
+res=[]
+for i in l:
+    if i not in res:
+        res.append(i)
+for i in res:
+    print(i,end=" ")
+  O/P
+  enter a numbers1 2 2 3 4 4 5 6 6
+['1', ' ', '2', ' ', '2', ' ', '3', ' ', '4', ' ', '4', ' ', '5', ' ', '6', ' ', '6']
+   1 2 3 4 5 6 
+
